@@ -1,0 +1,109 @@
+*{
+    color:rgb(21, 57, 23);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+ 
+body > header, h1{
+background-color:#2f3640 ;
+padding:16px 8;
+color: #fff;
+}
+ 
+header li{
+    display: inline;
+}
+ 
+header li a{
+    color: #fff;
+}
+ 
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 1264px;
+    margin: 0,auto,0,auto;
+}
+ 
+.creation-date{
+    color:#121212;
+}
+ 
+.articles{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+   
+}
+ 
+.articles article img{
+    height:160px;
+ 
+}
+.articles article{
+    width: 30%;
+}
+ 
+section{
+    padding: 16px 8;
+}
+ 
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+ 
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+ 
+.articles article a{
+    background-color:blue;
+    color: #a03838;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+ 
+.articles article a:hover{
+    text-decoration: underline;
+    background-color: blue;
+}
+
+#sports{
+    background-color: rgba(77, 116, 13, 0.5);
+}
+ 
+#sports .articles article a{
+    background-color: chocolate;
+}
+
+#economy{
+    background-color: rgba(32, 13, 116, 0.5);
+}
+ 
+#economy .articles article a{
+    background-color: chocolate;
+}
+
+#entertainment{
+    background-color: rgb(249, 3, 44);
+}
+ 
+#entertainment .articles article a{
+    background-color: rgb(186, 210, 30);
+}
+
+#tecnology{
+    background-color: rgba(22, 116, 13, 0.5);
+}
+ 
+#tecnology .articles article a{
+    background-color: rgb(30, 210, 168);
+}
